@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C439B17C27E65EA60041D0A3 /* Code Snippits.swift in Sources */ = {isa = PBXBuildFile; fileRef = C439B17B27E65EA60041D0A3 /* Code Snippits.swift */; };
+		C479906F27DCFD030001798B /* ShinguardPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479906E27DCFD030001798B /* ShinguardPlusApp.swift */; };
+		C479907327DCFD040001798B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C479907227DCFD040001798B /* Assets.xcassets */; };
+		C479907627DCFD040001798B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C479907527DCFD040001798B /* Preview Assets.xcassets */; };
+		C479907D27DCFE1A0001798B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479907C27DCFE1A0001798B /* StartView.swift */; };
+		C479908127DD05A90001798B /* HowTo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479908027DD05A90001798B /* HowTo1.swift */; };
+		C479908327DD0FF50001798B /* HowTo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479908227DD0FF50001798B /* HowTo2.swift */; };
+		C479908527DD2C7B0001798B /* HowTo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479908427DD2C7B0001798B /* HowTo3.swift */; };
+		C479908727DD2CE60001798B /* HowTo4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479908627DD2CE60001798B /* HowTo4.swift */; };
+		C479908927DD2FE10001798B /* HowTo5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479908827DD2FE10001798B /* HowTo5.swift */; };
+		C479908B27DD30200001798B /* HowTo6.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479908A27DD30200001798B /* HowTo6.swift */; };
+		C479908D27DD31120001798B /* HowTo7.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479908C27DD31120001798B /* HowTo7.swift */; };
+		C479908F27DD31700001798B /* HowTo8.swift in Sources */ = {isa = PBXBuildFile; fileRef = C479908E27DD31700001798B /* HowTo8.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C439B17B27E65EA60041D0A3 /* Code Snippits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Code Snippits.swift"; sourceTree = "<group>"; };
+		C479906B27DCFD030001798B /* ShinguardPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinguardPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C479906E27DCFD030001798B /* ShinguardPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinguardPlusApp.swift; sourceTree = "<group>"; };
+		C479907227DCFD040001798B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C479907527DCFD040001798B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C479907C27DCFE1A0001798B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		C479908027DD05A90001798B /* HowTo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo1.swift; sourceTree = "<group>"; };
+		C479908227DD0FF50001798B /* HowTo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo2.swift; sourceTree = "<group>"; };
+		C479908427DD2C7B0001798B /* HowTo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo3.swift; sourceTree = "<group>"; };
+		C479908627DD2CE60001798B /* HowTo4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo4.swift; sourceTree = "<group>"; };
+		C479908827DD2FE10001798B /* HowTo5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo5.swift; sourceTree = "<group>"; };
+		C479908A27DD30200001798B /* HowTo6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo6.swift; sourceTree = "<group>"; };
+		C479908C27DD31120001798B /* HowTo7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo7.swift; sourceTree = "<group>"; };
+		C479908E27DD31700001798B /* HowTo8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowTo8.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C479906827DCFD030001798B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C479906227DCFD030001798B = {
+			isa = PBXGroup;
+			children = (
+				C479906D27DCFD030001798B /* ShinguardPlus */,
+				C479906C27DCFD030001798B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C479906C27DCFD030001798B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C479906B27DCFD030001798B /* ShinguardPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C479906D27DCFD030001798B /* ShinguardPlus */ = {
+			isa = PBXGroup;
+			children = (
+				C479906E27DCFD030001798B /* ShinguardPlusApp.swift */,
+				C439B17B27E65EA60041D0A3 /* Code Snippits.swift */,
+				C479908027DD05A90001798B /* HowTo1.swift */,
+				C479908227DD0FF50001798B /* HowTo2.swift */,
+				C479908427DD2C7B0001798B /* HowTo3.swift */,
+				C479908627DD2CE60001798B /* HowTo4.swift */,
+				C479908827DD2FE10001798B /* HowTo5.swift */,
+				C479908A27DD30200001798B /* HowTo6.swift */,
+				C479908C27DD31120001798B /* HowTo7.swift */,
+				C479908E27DD31700001798B /* HowTo8.swift */,
+				C479907C27DCFE1A0001798B /* StartView.swift */,
+				C479907227DCFD040001798B /* Assets.xcassets */,
+				C479907427DCFD040001798B /* Preview Content */,
+			);
+			path = ShinguardPlus;
+			sourceTree = "<group>";
+		};
+		C479907427DCFD040001798B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C479907527DCFD040001798B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C479906A27DCFD030001798B /* ShinguardPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C479907927DCFD040001798B /* Build configuration list for PBXNativeTarget "ShinguardPlus" */;
+			buildPhases = (
+				C479906727DCFD030001798B /* Sources */,
+				C479906827DCFD030001798B /* Frameworks */,
+				C479906927DCFD030001798B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShinguardPlus;
+			productName = ShinguardPlus;
+			productReference = C479906B27DCFD030001798B /* ShinguardPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C479906327DCFD030001798B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C479906A27DCFD030001798B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C479906627DCFD030001798B /* Build configuration list for PBXProject "ShinguardPlus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C479906227DCFD030001798B;
+			productRefGroup = C479906C27DCFD030001798B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C479906A27DCFD030001798B /* ShinguardPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C479906927DCFD030001798B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C479907627DCFD040001798B /* Preview Assets.xcassets in Resources */,
+				C479907327DCFD040001798B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C479906727DCFD030001798B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C479907D27DCFE1A0001798B /* StartView.swift in Sources */,
+				C479908927DD2FE10001798B /* HowTo5.swift in Sources */,
+				C479908527DD2C7B0001798B /* HowTo3.swift in Sources */,
+				C479908727DD2CE60001798B /* HowTo4.swift in Sources */,
+				C479906F27DCFD030001798B /* ShinguardPlusApp.swift in Sources */,
+				C439B17C27E65EA60041D0A3 /* Code Snippits.swift in Sources */,
+				C479908327DD0FF50001798B /* HowTo2.swift in Sources */,
+				C479908F27DD31700001798B /* HowTo8.swift in Sources */,
+				C479908B27DD30200001798B /* HowTo6.swift in Sources */,
+				C479908127DD05A90001798B /* HowTo1.swift in Sources */,
+				C479908D27DD31120001798B /* HowTo7.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C479907727DCFD040001798B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C479907827DCFD040001798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C479907A27DCFD040001798B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShinguardPlus/Preview Content\"";
+				DEVELOPMENT_TEAM = YU5MC7Z25T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doogie.ShinguardPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C479907B27DCFD040001798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShinguardPlus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doogie.ShinguardPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C479906627DCFD030001798B /* Build configuration list for PBXProject "ShinguardPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C479907727DCFD040001798B /* Debug */,
+				C479907827DCFD040001798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C479907927DCFD040001798B /* Build configuration list for PBXNativeTarget "ShinguardPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C479907A27DCFD040001798B /* Debug */,
+				C479907B27DCFD040001798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C479906327DCFD030001798B /* Project object */;
+}
